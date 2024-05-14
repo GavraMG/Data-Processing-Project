@@ -1,6 +1,6 @@
 '''
 
-Q4_data_processing.py
+Q2_data_processing.py
 
 Author: Markus Gavra (1277056)
 Project: Milestone IV Project
@@ -13,7 +13,7 @@ Code Summary:
         - Analyzes the correlation between job vacancy numbers and employment levels in Canada.
 
     Command Line: 
-        - python Q4_data_processing.py (year argument) path/to/dataset1.csv
+        - python Q2_data_processing.py (year argument) path/to/dataset1.csv
     
     Process:
         - Processes data from dataset#1 
@@ -25,7 +25,7 @@ Code Summary:
         - Filters and keeps only the 'REF_DATE', 'GEO', 'Hours and wages', 'UOM', 'SCALAR_FACTOR', 'VALUE'
     
     Output:
-        - Outputs filtered data to a folder named "Q4_Processed_Data".
+        - Outputs filtered data to a folder named "Q2_Processed_Data".
         - The "Processed_Data" folder is used to help keep data organzied and clean
 
 
@@ -54,7 +54,7 @@ def main(argv):
     # Assigns the command line arguments to variables
     year = argv[1]
     dataset_1_path = argv[2]
-    output_folder = "Q4_Processed_Data"
+    output_folder = "Q2_Processed_Data"
 
     # Will create new folder if one is not already made
     if not os.path.exists(output_folder):
@@ -98,14 +98,14 @@ def main(argv):
         sys.exit(1)
 
 
-    # Writes filtered_data_1 to new CSV file that is then put in "Q4_Processed Data" folder
+    # Writes filtered_data_1 to new CSV file that is then put in "Q2_Processed Data" folder
     output_file_1_path = os.path.join(output_folder, f"Filtered_Permanent_Data_{year}.csv")
     with open(output_file_1_path, mode = 'w', newline = '', encoding = "utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(headers_1)         
         writer.writerows(filtered_data_1) 
 
-    # Writes filtered_data_1 to new CSV file that is then put in "Q4_Processed Data" folder
+    # Writes filtered_data_1 to new CSV file that is then put in "Q2_Processed Data" folder
     output_file_2_path = os.path.join(output_folder, f"Filtered_Temporary_Data_{year}.csv")
     with open(output_file_2_path, mode = 'w', newline = '', encoding = "utf-8") as file:
         writer = csv.writer(file)
