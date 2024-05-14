@@ -1,26 +1,26 @@
 '''
 
-Q4_graph_creation.py
+Q2_graph_creation.py
 
 Author: Markus Gavra (1277056)
 Project: Milestone IV Project
 Date of Last Update: Aril 4, 2024
 
 Code Summary: 
-    Question #4: What are the differences in job vacancies and wages between permanent and temporary positions across various quarters?
+    Question #2: What are the differences in job vacancies and wages between permanent and temporary positions across various quarters?
     
     Purpose: 
         - Takes the filtered data and uses it to make a bar graph 
 
     Command Line: 
-        - python Q4_graph_creation.py (year argument) path/to/dataset1.csv
+        - python Q2_graph_creation.py (year argument) path/to/dataset1.csv
     
     Process:
         - Takes the filtered data and makes a bar graph
     
     Output:
         - Takes the filtered data and makes a bar graph
-        - When completed, the graph will be sent to the folder "Q4_Graphs" to help keep it organized and clean
+        - When completed, the graph will be sent to the folder "Q2_Graphs" to help keep it organized and clean
 
 Data Citation:
     - https://www150.statcan.gc.ca/n1/en/type/data?HPA=1
@@ -44,12 +44,12 @@ def main(year):
     
     # Double checks to make sure argv was inputted
     if len(sys.argv) != 2:
-        print("Usage: python Q4_graph_creation.py <year>")
+        print("Usage: python Q2_graph_creation.py <year>")
         sys.exit(1) 
     
     # Folders
-    input_folder = "Q4_Processed_Data"
-    output_folder = "Q4_Graphs"
+    input_folder = "Q2_Processed_Data"
+    output_folder = "Q2_Graphs"
     
     # Create the output folder if it doesn't exist
     if not os.path.exists(output_folder):
@@ -97,7 +97,7 @@ def main(year):
     plt.close()
 
     # Print success message
-    print(f"The bar graph has been saved to: Q4_Graphs")
+    print(f"The bar graph has been saved to: Q2_Graphs")
 
 # This is the starting point of the script.
 if __name__ == "__main__":
