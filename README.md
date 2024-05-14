@@ -21,10 +21,10 @@ This project delves into the dynamics of the Canadian job market, analyzing job 
 ## 📑 Project Scope
 
 ### 📈 Data Processing Scripts
-- **MarketTrendAnalyzer.py** - Processes and analyzes job market data to identify trends and insights.
-- **VisualizationEngine.py** - Generates dynamic graphs and visualizations to depict complex data interactions clearly.
-- **DataIntegrationTool.py** - Merges various datasets to create a unified analysis platform.
-- **InsightExtractor.py** - Extracts key insights from processed data to support strategic decisions.
+- **Q1_data_processing.py** - Processes and analyzes job market data to identify trends and insights related to the initial quarter's focus.
+- **Q1_graph_creation.py** - Generates dynamic graphs and visualizations to depict complex data interactions clearly, specifically for insights derived from the initial quarter's data.
+- **Q2_data_processing.py** - Merges various datasets to create a unified analysis platform, focusing on data relevant to the subsequent quarter.
+- **Q2_graph_creation.py** - Extracts key insights from processed data to support strategic decisions, tailored to the findings of the subsequent quarter.
 
 ### 🗂 Data Sources
 - **Statistics Canada Datasets**:
