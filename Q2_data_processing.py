@@ -7,7 +7,7 @@ Project: Milestone IV Project
 Date of Last Update: April 4, 2024
 
 Code Summary: 
-    Question #4: What are the differences in job vacancies and wages between permanent and temporary positions across various quarters?
+    Question #2: What are the differences in job vacancies and wages between permanent and temporary positions across various quarters?
     
     Purpose: 
         - Analyzes the correlation between job vacancy numbers and employment levels in Canada.
