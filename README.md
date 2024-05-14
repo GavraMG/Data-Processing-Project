@@ -21,10 +21,10 @@ This project delves into the dynamics of the Canadian job market, analyzing job 
 ## 📑 Project Scope
 
 ### 📈 Data Processing Scripts
-- **Q** - Handles the aggregation and preparation of job market data for the year.
-- **EndOfYearGraphBuilder.py** - Generates comprehensive graphs and visualizations for end-of-year data analysis.
-- **InitialGraphGenerator.py** - Creates initial visualizations to explore data trends.
-- **EarlyDataAnalyzer.py** - Conducts preliminary analysis on early-year data sets.
+- **MarketTrendAnalyzer.py** - Processes and analyzes job market data to identify trends and insights.
+- **VisualizationEngine.py** - Generates dynamic graphs and visualizations to depict complex data interactions clearly.
+- **DataIntegrationTool.py** - Merges various datasets to create a unified analysis platform.
+- **InsightExtractor.py** - Extracts key insights from processed data to support strategic decisions.
 
 ### 🗂 Data Sources
 - **Statistics Canada Datasets**:
@@ -33,22 +33,19 @@ This project delves into the dynamics of the Canadian job market, analyzing job 
 
 ### 📊 Key Questions Explored
 1. The correlation between job vacancy numbers and employment levels.
-2. Evolution of job vacancies requiring less than 1 year of experience.
-3. Trends in job availability and wages in management occupations.
-4. Differences in job vacancies and wages between permanent and temporary positions.
+2. Differences in job vacancies and wages between permanent and temporary positions.
 
 <br/>
 
 ## 💻 Technologies Used
-
 - **Python:** For data manipulation and analysis.
-- **Various Data Visualization Libraries:** To create dynamic and insightful graphical representations of data.
+- **Various Data Visualization Libraries:** Libraries within python to create dynamic and insightful graphical representations of data.
 
 <br/>
 
 ## ✉️ Contributors
 
-Feel free to contact the contributors for any inquiries or contributions to the project!
+Feel free to contact mer for any inquiries or contributions to the project!
 
 - **[Markus Gavra](mailto:markusgavra@example.com)** - Project Manager and Data Analyst.
 
